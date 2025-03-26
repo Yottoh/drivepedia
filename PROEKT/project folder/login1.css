@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Login Container */
+.login-container {
+    background-color: #1a1a1a; /* Dark gray background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid #ffd700; /* Yellow border */
+}
+
+.login-container h1 {
+    color: #ffd700; /* Yellow heading */
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+/* Login Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+}
+
+.input-group label {
+    color: #ffffff; /* White text */
+    font-weight: bold;
+}
+
+.input-group input {
+    padding: 0.8rem;
+    border: 2px solid #ffd700; /* Yellow border */
+    border-radius: 5px;
+    background-color: #000000; /* Black input background */
+    color: #ffffff; /* White text */
+    font-size: 1rem;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #e6b800; /* Darker yellow on focus */
+}
+
+/* Login Button */
+.login-button {
+    background-color: #ffd700; /* Yellow button */
+    color: #000000; /* Black text */
+    border: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.login-button:hover {
+    background-color: #e6b800; /* Darker yellow on hover */
+}
+
+/* Register Link */
+.register-link {
+    color: #ffffff; /* White text */
+    margin-top: 1rem;
+}
+
+.register-link a {
+    color: #ffd700; /* Yellow link */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+.register-link a:hover {
+    color: #e6b800; /* Darker yellow on hover */
+}
